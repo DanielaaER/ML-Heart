@@ -16,4 +16,4 @@ clf = RandomForestClassifier(n_estimators = 10,
                              random_state=0)
 clf.fit(X_train, y_train)
 print ('Saving model..')
-dump(clf, '../model/heart-disease-v1.joblib')
+dump(clf, 'model/heart-disease-v1.joblib')
